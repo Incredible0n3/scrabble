@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'scrabble'
+puts Scrabble.run_scrabble(ARGV[0])
