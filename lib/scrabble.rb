@@ -8,10 +8,11 @@
 class Scrabble
   ###
   # @param [String] run a list of letters against a text dictionary file for valid scrabble answers.
-  # @return [Array] return possible valid results.
+  # @return [Array] returns possible valid results.
   ###
   def self.run_scrabble(letters)
-    dictionary = File.readlines('word_list.txt').map(&:chomp)
+    dictionary_path = File.join( File.dirname(__FILE__), 'word_list.txt' )
+    dictionary = File.readlines(dictionary_path).map(&:chomp)
     possible = (2..letters.length).map{|n| letters.chars.to_a.permutation(n).to_a.map(&:join)}.flatten
     dictionary & possible
   end
