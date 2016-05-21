@@ -6,10 +6,10 @@ rvm:
   - 2.2.3
   - 2.2.0
 install:
-  - "travis_retry bin/setup"
+  - bundle
 
 script:
-  - "bundle exec rake"
+  - bundle exec rake
 
 branches:
   only:
