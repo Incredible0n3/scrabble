@@ -4,6 +4,9 @@
     | |_| |  |  |_|  |
     |____/[]  \ ___ /[]
 
+
+[![Build Status](https://travis-ci.org/Incredible0n3/scrabble.svg?branch=master)](https://travis-ci.org/Incredible0n3/scrabble)
+
 Scrabble has long been used to play on words. For example, you have a set of letters, these letters then make various
 combinations of words. In the rules of scrabble those various combinations of words are compared against a valid scrabble
 dictionary to see if it is a valid answer. This provides a list of all possible valid answers based on the set of letters.
