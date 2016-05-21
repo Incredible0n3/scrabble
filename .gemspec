@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'danno_scrabble'
-  s.version     = '0.0.4'
+  s.version     = '0.0.5'
   s.date        = %q{2016-05-20}
   s.summary     = "Scrabble"
   s.description = "A simple scrabble answer checker. Provides a list of valid scrabble answers."

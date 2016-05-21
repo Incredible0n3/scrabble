@@ -27,9 +27,9 @@ dictionary to see if it is a valid answer. This provides a list of all possible 
 # Using the Gem!
 
   * `ruby -Ilib ./bin/scrabble {'scrabble'}` or `ruby -Ilib ./bin/scrabble {'asdfjkl'}` # if cloned
-  * `ruby -Ilib ~/.rvm/gems/ruby-2.2.3/gems/danno_scrabble_0.0.4/bin/scrabble {'scrabble'}` # if installed via `gem install`
+  * `ruby -Ilib ~/.rvm/gems/ruby-2.2.3/gems/danno_scrabble_0.0.5/bin/scrabble {'scrabble'}` # if installed via `gem install`
 
 # Testing the Gem!
 
   * `rake` # if cloned
-  * `cd ~/.rvm/gems/ruby-2.2.3/gems/danno_scrabble_0.0.4` then `rake` # if installed via `gem install`
+  * `cd ~/.rvm/gems/ruby-2.2.3/gems/danno_scrabble_0.0.5` then `rake` # if installed via `gem install`

@@ -1,12 +1,13 @@
 PATH
   remote: .
   specs:
-    danno_scrabble (0.0.4)
+    danno_scrabble (0.0.5)
 
 GEM
   remote: https://rubygems.org/
   specs:
     minitest (5.9.0)
+    rake (11.1.2)
 
 PLATFORMS
   ruby
@@ -14,6 +15,7 @@ PLATFORMS
 DEPENDENCIES
   danno_scrabble!
   minitest
+  rake
 
 BUNDLED WITH
    1.10.6
