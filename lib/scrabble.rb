@@ -7,7 +7,7 @@
 ###
 class Scrabble
   ###
-  # @param [String] run a list of letters against a text dictionary file for valid scrabble answers.
+  # @param [String] letters are ran against a dictionary for valid scrabble answers.
   # @return [Array] returns possible valid results.
   ###
   def self.run_scrabble(letters)

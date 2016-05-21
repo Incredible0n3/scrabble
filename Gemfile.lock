@@ -1,0 +1,19 @@
+PATH
+  remote: .
+  specs:
+    danno_scrabble (0.0.4)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.9.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  danno_scrabble!
+  minitest
+
+BUNDLED WITH
+   1.10.6
