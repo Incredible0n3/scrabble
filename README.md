@@ -5,7 +5,7 @@
     |____/[]  \ ___ /[]
 
 
-[![Build Status](https://travis-ci.org/Incredible0n3/scrabble.svg?branch=master)](https://travis-ci.org/Incredible0n3/scrabble)
+[![Build Status](https://travis-ci.org/Incredible0n3/scrabble.svg?branch=master)](https://travis-ci.org/Incredible0n3/scrabble)  |  [![Code Climate](https://codeclimate.com/github/Incredible0n3/scrabble/badges/gpa.svg)](https://codeclimate.com/github/Incredible0n3/scrabble)  |  [![Test Coverage](https://codeclimate.com/github/Incredible0n3/scrabble/badges/coverage.svg)](https://codeclimate.com/github/Incredible0n3/scrabble/coverage)
 
 Scrabble has long been used to play on words. For example, you have a set of letters, these letters then make various
 combinations of words. In the rules of scrabble those various combinations of words are compared against a valid scrabble
@@ -27,9 +27,9 @@ dictionary to see if it is a valid answer. This provides a list of all possible 
 # Using the Gem!
 
   * `ruby -Ilib ./bin/scrabble {'scrabble'}` or `ruby -Ilib ./bin/scrabble {'asdfjkl'}` # if cloned
-  * `ruby -Ilib ~/.rvm/gems/ruby-2.2.3/gems/danno_scrabble_0.0.5/bin/scrabble {'scrabble'}` # if installed via `gem install`
+  * `ruby -Ilib ~/.rvm/gems/ruby-2.2.3/gems/danno_scrabble_0.0.6/bin/scrabble {'scrabble'}` # if installed via `gem install`
 
 # Testing the Gem!
 
   * `rake` # if cloned
-  * `cd ~/.rvm/gems/ruby-2.2.3/gems/danno_scrabble_0.0.5` then `rake` # if installed via `gem install`
+  * `cd ~/.rvm/gems/ruby-2.2.3/gems/danno_scrabble_0.0.6` then `rake` # if installed via `gem install`

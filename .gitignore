@@ -4,3 +4,7 @@
 #Ignore defaults
 *.gem
 .DS_Store
+coverage/
+*.last_run.json
+*.resultset.json
+*.resultset.json.lock
